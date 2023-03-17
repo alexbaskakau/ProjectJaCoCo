@@ -1,16 +1,14 @@
 
 package ru.netology;
 
-import org.junit.jupiter.api.Test;
-
 import org.junit.jupiter.api.Assertions;
-import ru.netology.StatService;
+import org.junit.jupiter.api.Test;
 
 public class StatServiceTest {
 
     @Test
     void findMax() {
-        StatService service = new StatService();
+        ru.netology.StatService service= new ru.netology.StatService();
 
         long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
         long expected = 12;
