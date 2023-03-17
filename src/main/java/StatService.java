@@ -2,7 +2,7 @@
 
 package ru.netology;
 
-public class StatisticsService {
+public class StatService {
         public long findMax(long[] incomes) {
             long currentMax = incomes[0];
             for (long income : incomes) {
